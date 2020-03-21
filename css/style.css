@@ -84,14 +84,34 @@ button {
 }
 
 /*
-.menu2 button.valgt {
-    border-bottom: 1px solid #676360;
-    outline: none;
 
-}
-*/
 
 a .overskrift {
     text-align: center;
     font-size: 200em;
+}
+*/
+
+#omos {
+    width: 100%;
+    height: 500px;
+    background: url('img-kopi/beans-coffee-drink-cafe-34085-kopi.jpg');
+    background-position: center;
+    background-size: cover;
+    /*    background-attachment: fixed;*/
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#omos h5 {
+    color: white;
+}
+
+#omos p {
+    color: white;
+    align-content: center;
+    font-weight: 500;
+    font-size: 1.4em;
 }
