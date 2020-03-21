@@ -5,14 +5,14 @@
  /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
  /**************************************************/
  body {
-     background-color: red;
+/*     background-color: red;*/
  }
 
  /* tidl. kaldet 'xs-' */
  body::before {
      content: "Default. mobile/under 576px. Deafult i Bootstrap.";
      padding: 1rem;
-     background-color: turquoise;
+/*     background-color: turquoise;*/
      position: fixed;
      top: 0;
      left: 0;
@@ -30,7 +30,7 @@
  @media (min-width: 576px) {
 
      body {
-         background-color: hotpink;
+/*         background-color: hotpink;*/
      }
 
      body::before {
@@ -46,7 +46,7 @@
  @media (min-width: 768px) {
 
      body {
-         background-color: yellow;
+/*         background-color: yellow;*/
      }
 
      body::before {
@@ -62,7 +62,7 @@
  @media (min-width: 992px) {
 
      body {
-         background-color: peru;
+/*         background-color: peru;*/
      }
 
      body::before {
@@ -78,8 +78,8 @@
  @media (min-width: 1200px) {
 
      body {
-         background-color: blue;
-     }
+/*         background-color: blue;
+         */     }
 
      body::before {
          content: "'xl': lig el. over 1200px.";
