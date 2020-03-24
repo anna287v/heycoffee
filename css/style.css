@@ -112,11 +112,24 @@ a .overskrift {
 #omos p {
     color: white;
     align-content: center;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 1.4em;
 }
 
-#vision p {}
+#omos h2 {
+    font-size: 4em;
+    color: white;
+    font-weight: 400;
+}
+
+#vision h5 {
+    font-size: 1em;
+}
+
+#facts p::first-letter {
+    font-size: 300%;
+    font-weight: bold;
+}
 
 .preloader {
     position: absolute;
@@ -130,5 +143,3 @@ a .overskrift {
     background-color: #FFF;
     background-position: center;
 }
-
-#vision h5 {}
