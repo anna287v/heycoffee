@@ -205,3 +205,44 @@ hr {
     margin-right: 0;
     margin-left: 0;
 }
+
+.facts_indhold {
+    width: 100%;
+    padding-right: 45px;
+    padding-left: 45px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+
+@media (min-width:576px) {
+    .facts_indhold {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .facts_indhold {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .facts_indhold {
+        max-width: 960px;
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+}
+
+@media (min-width:1200px) {
+    .facts_indhold {
+        max-width: 1140px;
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+}
+
+.rgba-brown-light {
+    background-color: rgba(121, 85, 72, 0.11);
+}
