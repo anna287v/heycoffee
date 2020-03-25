@@ -192,3 +192,16 @@ hr {
     width: 100%;
     margin: 10px 0px 10px 0px;
 }
+
+#kokos {
+    width: 100%;
+    height: 500px;
+    background: url('img-kopi/coconut.jpeg');
+    background-position: center;
+    background-size: cover;
+    /*    background-attachment: fixed;*/
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
