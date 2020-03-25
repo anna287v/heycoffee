@@ -49,9 +49,15 @@
 */
 
 /* very ugly & annoying hover effect*/
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 a {
     transition: background-color 1s ease;
-    color: red;
 }
 
 a:hover {
@@ -70,17 +76,17 @@ a:hover {
 
 /*Selve knappen*/
 button {
-    font-size: 1rem;
+    /*    font-size: 1rem;*/
     /*Den indre afstand i boksen*/
     padding: 10px;
     /*Fjerner kanten på knapperne*/
     margin: 0 0.2rem;
     cursor: pointer;
-    border: 0;
+    /*    border: 0;*/
     text-transform: uppercase;
-    font-weight: 400;
+    /*    font-weight: 400;*/
     color: #000000;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: white;
 }
 
 /*
@@ -122,6 +128,43 @@ a .overskrift {
     font-weight: 400;
 }
 
+.omos_text {
+    margin-top: 8%;
+}
+
+.vision_indhold {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+
+@media (min-width:576px) {
+    .vision_indhold {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .vision_indhold {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .vision_indhold {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .vision_indhold {
+        max-width: 1140px
+    }
+}
+
 #vision h5 {
     font-size: 1em;
 }
@@ -142,4 +185,10 @@ a .overskrift {
     background-repeat: no-repeat;
     background-color: #FFF;
     background-position: center;
+}
+
+hr {
+    border: 0.5px solid black;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
 }
