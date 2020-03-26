@@ -29,23 +29,6 @@ $(window).on('load', function () {
 //    console.log('hi there from "js/scripts.js" - good to see you');
 //    //console.error('Just checking if YOU are checking the console. You should always open Chrome DevTools and check the console when doing web development. \n\nPlease uncomment or delete these messages from the js-file. \n\nBUT remember the syntax for alert and console.log \(e.g. by keeping then in the comments in the file\). \n\n//Lasse');
 //}); //END DOM ready
-$(function () {
-    console.log("insta");
-
-    $.instagramFeed({
-        'username': 'annaseverine_kea',
-        'container': "#my-instagram-feed",
-        'iamge_size': [150, 240, 320, 320, 320],
-        'display_profile': false,
-        'display_biography': true,
-        'display_igtv': false,
-        'items': 6,
-        'items_per_row': 3,
-        'margin': 2.5,
-        'styling': true,
-        'display_gallery': true,
-    });
-})
 
 function test() {
     document.addEventListener("scroll", () => {
@@ -70,3 +53,21 @@ function test() {
         }
     });
 }
+
+$(function () {
+    console.log("insta");
+
+    $.instagramFeed({
+        'username': 'annaseverine_kea',
+        'container': "#my-instagram-feed",
+        'iamge_size': [150, 240, 320, 320, 320],
+        'display_profile': false,
+        'display_biography': true,
+        'display_igtv': false,
+        'items': 6,
+        'items_per_row': 3,
+        'margin': 2.5,
+        'styling': true,
+        'display_gallery': true,
+    });
+})
