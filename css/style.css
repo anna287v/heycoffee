@@ -4,8 +4,6 @@
 /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
 /**************************************************/
 
-#hero {}
-
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
 /**************************************************/
@@ -38,18 +36,7 @@
     /* END "xl-" 1200px and up */
 }
 
-/*
-.bg-custom-1 {
-    background-color: #85144b;
-}
-
-.bg-custom-2 {
-    background-image: linear-gradient(15deg, #ff547a 0%, #80d0c7 100%);
-}
-*/
-
-/* very ugly & annoying hover effect*/
-body {
+html {
     scroll-behavior: smooth;
 }
 
@@ -59,6 +46,24 @@ body {
     padding: 0;
 }
 
+p {
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.subscribe_text {
+    font-size: 45px;
+}
+
+.undersider_text {
+    font-size: 20px;
+}
+
 a {
     transition: background-color 1s ease;
 }
@@ -66,15 +71,6 @@ a {
 a:hover {
     border-bottom: 2px solid #000000;
     border-bottom-width: thin;
-}
-
-.active {}
-
-/*.menu2 {
-    display: block;
-    text-align: center;
-    justify-content: space-between;
-    margin: 3rem 0 0;
 }
 
 /*Selve knappen*/
@@ -92,26 +88,13 @@ button {
     background-color: white;
 }
 
-/*
-
-
-a .overskrift {
-    text-align: center;
-    font-size: 200em;
-}
-*/
-
 #omos {
-    width: 100%;
+    max-width: 100vw;
     height: 500px;
-    background: url('img-kopi/beans-coffee-drink-cafe-34085-kopi.jpg');
     background-position: center;
     background-size: cover;
-    /*    background-attachment: fixed;*/
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: 0;
-    margin-left: 0;
+    background-attachment: fixed;
+    background-image: url(img-kopi/caffeine-coffee-coffee-beans-roasted-585750.jpg);
 }
 
 #omos h5 {
@@ -142,7 +125,6 @@ a .overskrift {
     margin-right: auto;
     margin-left: auto
 }
-
 
 @media (min-width:576px) {
     .vision_indhold {
@@ -216,7 +198,6 @@ hr {
     margin-right: auto;
     margin-left: auto
 }
-
 
 @media (min-width:576px) {
     .facts_indhold {
@@ -379,7 +360,6 @@ hr {
     background-attachment: fixed;
     background-image: url(img-kopi/almonds.jpeg);
 }
-
 
 #ris {
     max-width: 100vw;
